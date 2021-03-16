@@ -3,6 +3,7 @@
 //const 값이 변경할지 안할 지 모를 떄
 
 const http = require('http');
+const fs = require('fs');
 
 const app = http.createServer(function(req, res){
     // let url = req.url;
@@ -12,8 +13,8 @@ const app = http.createServer(function(req, res){
     //     return res.writeHead(404);
 
     res.writeHead(200);
-    console.log(__dirname + req.url);
-    res.end("hello egoing")
+    res.end(fs.readFileSync(__dirname + url));
+    // console.log(__dirname + req.url);
 })
 
 app.listen(3000);
