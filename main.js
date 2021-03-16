@@ -6,11 +6,11 @@ const http = require('http');
 const fs = require('fs');
 
 const app = http.createServer(function(req, res){
-    // let url = req.url;
-    // if(req.url == '/')
-    //     url = '/index.html';
-    // if(req.url == '/favicon')
-    //     return res.writeHead(404);
+    let url = req.url;
+    if(req.url == '/')
+        url = '/index.html';
+    if(req.url == '/favicon')
+        return res.writeHead(404);
 
     res.writeHead(200);
     res.end(fs.readFileSync(__dirname + url));
