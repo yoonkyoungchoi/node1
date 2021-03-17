@@ -3,7 +3,7 @@
 //const 값이 변경할지 안할 지 모를 떄
 
 const http = require('http');
-const fs = require('fs');
+// const fs = require('fs');
 const url = require('url');
 
 const app = http.createServer(function(req, res){
@@ -12,15 +12,15 @@ const app = http.createServer(function(req, res){
     let title = queryData.id;
     console.log(queryData.id);
 
-    if(url == '/')
+    if(url === '/')
         title = 'welcome';
-    if(url == '/favicon')
+    if(url === '/favicon')
         return res.writeHead(404);
 
     res.writeHead(200);
     const template = `
     <!doctype html>
-    <html>
+    <html lang="ko">
     <head>
       <title>WEB1 - ${title}</title>
       <meta charset="utf-8">
