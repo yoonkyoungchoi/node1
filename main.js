@@ -7,13 +7,13 @@ const fs = require('fs');
 const url = require('url');
 
 const app = http.createServer(function(req, res){
-    let url = req.url;
+    let _url = req.url;
     const queryData = url.parse(_url, true).query;
     console.log(queryData.id);
 
-    if(req.url == '/')
-        url = '/index.html';
-    if(req.url == '/favicon')
+    if(url == '/')
+        _url = '/index.html';
+    if(url == '/favicon')
         return res.writeHead(404);
 
     res.writeHead(200);
