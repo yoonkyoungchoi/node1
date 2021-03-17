@@ -4,17 +4,21 @@
 
 const http = require('http');
 const fs = require('fs');
+const url = require('url');
 
 const app = http.createServer(function(req, res){
     let url = req.url;
+    const queryData = url.parse(_url, true).query;
+    console.log(queryData.id);
+
     if(req.url == '/')
         url = '/index.html';
     if(req.url == '/favicon')
         return res.writeHead(404);
 
     res.writeHead(200);
-    res.end(fs.readFileSync(__dirname + url));
-    // console.log(__dirname + req.url);
+    res.end(queryData.id);
+    console.log(__dirname + req.url);
 })
 
 app.listen(3000);
