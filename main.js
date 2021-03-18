@@ -11,12 +11,16 @@ const app = http.createServer(function(req, res){
     const queryData = url.parse(_url, true).query;
     let title = queryData.id;
     console.log(queryData.id);
+    let filePath = queryData.id;
 
     if(_url === '/')
         title = 'welcome';
-    if(_url === '/favicon')
-        return res.writeHead(404);
-
+        filePath = 'Welcome';
+    if(_url === '/favicon.ico') {
+        res.writeHead(404,{"content-Type" : "text/plain"});
+        res.write("404 not found")
+        res.end();
+    }
     res.writeHead(200);
     fs.readFile(`data/${queryData.id}`, 'utf8', function (err, data){
         const template = `
@@ -29,16 +33,16 @@ const app = http.createServer(function(req, res){
 <body>
   <h1><a href="index.html">WEB</a></h1>
   <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
+    <li><a href="/?id=HTML">HTML</a></li>
+    <li><a href="/?id=CSS">CSS</a></li>
+    <li><a href="/?id=JavaScript">JavaScript</a></li>
   </ol>
   <h2>${title}</h2>
-  <p>\</p>
+  <h2>${data}</h2>
 </body>
 </html>
     `;
-    res.end();
+        res.end(template);
     });
 });
 
