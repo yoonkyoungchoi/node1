@@ -3,17 +3,16 @@ const fs = require('fs');
 const url = require('url');
 
 const app = http.createServer(function (request, response) {
-    const _url = request.url;
-    const queryData = url.parse(_url, true).query;
-    const pathname = url.parse(_url, true).pathname;
-    if (pathname === '/') {
-        if (queryData.id === undefined) {
-            fs.readFile(`data/${queryData.id}`, 'utf8', function (err, description) {
+        const _url = request.url;
+        const queryData = url.parse(_url, true).query;
+        const pathname = url.parse(_url, true).pathname;
+        if (pathname === '/') {
+            if (queryData.id === undefined) {
                 const title = 'Welcome';
-                var description = 'Hello, Node.js';
+                const description = 'Hello, Node.js';
                 const template = `
           <!doctype html>
-          <html>
+          <html lang="ko">
           <head>
             <title>WEB1 - ${title}</title>
             <meta charset="utf-8">
@@ -32,11 +31,12 @@ const app = http.createServer(function (request, response) {
           `;
                 response.writeHead(200);
                 response.end(template);
-            });
-        } else {
-            fs.readFile(`data/${queryData.id}`, 'utf8', function (err, description) {
-                var title = queryData.id;
-                var template = `
+            }
+            else
+            {
+                fs.readFile(`data/${queryData.id}`, 'utf8', function (err, description) {
+                    var title = queryData.id;
+                    var template = `
           <!doctype html>
           <html>
           <head>
@@ -55,15 +55,15 @@ const app = http.createServer(function (request, response) {
           </body>
           </html>
           `;
-                response.writeHead(200);
-                response.end(template);
-            });
+                    response.writeHead(200);
+                    response.end(template);
+                });
+            }
+        } else {
+            response.writeHead(404);
+            response.end('Not found');
         }
-    } else {
-        response.writeHead(404);
-        response.end('Not found');
     }
+);
 
-
-});
 app.listen(3000);
