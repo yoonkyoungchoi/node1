@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="폴더">
+    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="kite 설치">
+      <change afterPath="$PROJECT_DIR$/nodejs/readdir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs/test.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +45,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.main.js">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\node1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.readdir.js">
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="readdir.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/readdir.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
@@ -51,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.readdir.js" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.server.js" />
       </list>
@@ -73,6 +85,8 @@
       <workItem from="1615533190310" duration="6000" />
       <workItem from="1615938049424" duration="310000" />
       <workItem from="1616548256509" duration="448000" />
+      <workItem from="1616548715390" duration="62000" />
+      <workItem from="1616629256541" duration="1101000" />
     </task>
     <task id="LOCAL-00001" summary="시작">
       <created>1615424773355</created>
@@ -95,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616548409156</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="kite 설치">
+      <created>1616548763026</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616548763026</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +138,8 @@
     <MESSAGE value="시작" />
     <MESSAGE value="경로 수정" />
     <MESSAGE value="폴더" />
-    <option name="LAST_COMMIT_MESSAGE" value="폴더" />
+    <MESSAGE value="kite 설치" />
+    <option name="LAST_COMMIT_MESSAGE" value="kite 설치" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
