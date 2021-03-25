@@ -18,7 +18,7 @@ function templateHTML(title, list, body){
           </html>
           `
 }
-
+//함수 생성
 function templateList(filelist) {
     let list = '<ul>'
     for (let i = 0; i < filelist.length; i++) {
