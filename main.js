@@ -2,6 +2,20 @@ const http = require('http')
 const fs = require('fs')
 const url = require('url')
 
+function templateHTML(title, list, body){
+    return `
+    `
+}
+
+function templateList(filelist){
+    let list = '<ul>'
+    for (let i = 0; i < filelist.length; i++) {
+        list += `<li><a href="/?id=${filelist[i]}"> ${filelist[i]} </a></li>`
+    }
+    list += '</ul>'
+    return list;
+}
+
 const app = http.createServer(function (request, response) {
     const _url = request.url
     const queryData = url.parse(_url, true).query
@@ -12,26 +26,8 @@ const app = http.createServer(function (request, response) {
             const description = 'Hello, Node.js'
 
             fs.readdir('data/', function (err, data) {
-                let list = '<ul>'
-                for (let i = 0; i < data.length; i++) {
-                    list += `<li><a href="/?id=${data[i]}"> ${data[i]} </a></li>`
-                }
-                list += '</ul>'
-                const template = `
-          <!doctype html>
-          <html lang="ko">
-          <head>
-            <title>WEB1 - ${title}</title>
-            <meta charset="utf-8">
-          </head>
-          <body>
-            <h1><a href="/">WEB</a></h1>
-            ${list}
-            <h2>${title}</h2>
-            <p>${description}</p>
-          </body>
-          </html>
-          `
+                let list = templateList(data);
+                const template = templateHTML(title, list, `<h2>${title}</h2>`)
                 response.writeHead(200)
                 response.end(template)
             })
