@@ -49,21 +49,7 @@ const app = http.createServer(function (request, response) {
                 const list = templateList(data);
                 fs.readFile(`data/${queryData.id}`, 'utf8', function (err, description) {
                     const title = queryData.id
-                    const template = `
-          <!doctype html>
-          <html lang="ko">
-          <head>
-            <title>WEB1 - ${title}</title>
-            <meta charset="utf-8">
-          </head>
-          <body>
-            <h1><a href="/">WEB</a></h1>
-            ${list}
-            <h2>${title}</h2>
-            <p>${description}</p>
-          </body>
-          </html>
-          `
+                    const template = templateHTML(title, list, `<h2>${title}</h2>${description}`)
                     response.writeHead(200)
                     response.end(template)
                 })
