@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="글 목록 수정">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="글 목록 수정2">
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +91,7 @@
       <workItem from="1615938049424" duration="310000" />
       <workItem from="1616548256509" duration="448000" />
       <workItem from="1616548715390" duration="62000" />
-      <workItem from="1616629256541" duration="4622000" />
+      <workItem from="1616629256541" duration="4757000" />
     </task>
     <task id="LOCAL-00001" summary="시작">
       <created>1615424773355</created>
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616633137506</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="글 목록 수정2">
+      <created>1616634345850</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616634345850</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +167,7 @@
     <MESSAGE value="kite 설치" />
     <MESSAGE value="글 목록" />
     <MESSAGE value="글 목록 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="글 목록 수정" />
+    <MESSAGE value="글 목록 수정2" />
+    <option name="LAST_COMMIT_MESSAGE" value="글 목록 수정2" />
   </component>
 </project>
