@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="경로 수정">
+    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="web 2-19 동적페이지2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +13,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -27,6 +27,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -72,7 +73,9 @@
       <workItem from="1615427148273" duration="8000" />
       <workItem from="1615427157797" duration="6000" />
       <workItem from="1615533190310" duration="6000" />
-      <workItem from="1615938049424" duration="310000" />
+      <workItem from="1615938049424" duration="4541000" />
+      <workItem from="1616024174858" duration="4935000" />
+      <workItem from="1616134283297" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="시작">
       <created>1615424773355</created>
@@ -88,7 +91,98 @@
       <option name="project" value="LOCAL" />
       <updated>1615425400137</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="수정">
+      <created>1615938401735</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615938401735</updated>
+    </task>
+    <task id="LOCAL-00004" summary="수정">
+      <created>1615939067721</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615939067721</updated>
+    </task>
+    <task id="LOCAL-00005" summary="수정">
+      <created>1615939102721</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615939102721</updated>
+    </task>
+    <task id="LOCAL-00006" summary="수정">
+      <created>1615940414486</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615940414486</updated>
+    </task>
+    <task id="LOCAL-00007" summary="수정">
+      <created>1615941455026</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615941455026</updated>
+    </task>
+    <task id="LOCAL-00008" summary="web 2-10">
+      <created>1615943175405</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615943175405</updated>
+    </task>
+    <task id="LOCAL-00009" summary="web 2-10">
+      <created>1616024550115</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616024550115</updated>
+    </task>
+    <task id="LOCAL-00010" summary="web 2-13">
+      <created>1616025447211</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616025447211</updated>
+    </task>
+    <task id="LOCAL-00011" summary="web 2-13">
+      <created>1616026007508</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616026007508</updated>
+    </task>
+    <task id="LOCAL-00012" summary="web 2-19">
+      <created>1616027207164</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616027207164</updated>
+    </task>
+    <task id="LOCAL-00013" summary="web 2-19 동적페이지">
+      <created>1616028980297</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616028980297</updated>
+    </task>
+    <task id="LOCAL-00014" summary="web 2-19 동적페이지1">
+      <created>1616134323073</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1616134323073</updated>
+    </task>
+    <task id="LOCAL-00015" summary="web 2-19 동적페이지2">
+      <created>1616134393860</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616134393860</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,18 +203,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="시작" />
     <MESSAGE value="경로 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="경로 수정" />
+    <MESSAGE value="수정" />
+    <MESSAGE value="web 2-10" />
+    <MESSAGE value="web 2-13" />
+    <MESSAGE value="web 2-19" />
+    <MESSAGE value="web 2-19 동적페이지" />
+    <MESSAGE value="web 2-19 동적페이지1" />
+    <MESSAGE value="web 2-19 동적페이지2" />
+    <option name="LAST_COMMIT_MESSAGE" value="web 2-19 동적페이지2" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/main.js</url>
-          <line>13</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
