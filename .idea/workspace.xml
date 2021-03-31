@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="web2-31 글생성-UI">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="web2-32 글생성 - 데이터 받기">
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617151074394</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="web2-32 글생성 - 데이터 받기">
+      <created>1617151924263</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617151924263</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +151,8 @@
     <MESSAGE value="Event" />
     <MESSAGE value="CRUD 생성" />
     <MESSAGE value="web2-31 글생성-UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="web2-31 글생성-UI" />
+    <MESSAGE value="web2-32 글생성 - 데이터 받기" />
+    <option name="LAST_COMMIT_MESSAGE" value="web2-32 글생성 - 데이터 받기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
