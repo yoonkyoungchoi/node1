@@ -20,7 +20,6 @@ function templateHTML (title, list, body, control) {
           </html>
           `
 }
-
 function templateList (filelist) {
     let list = '<ul>'
     for (let i = 0; i < filelist.length; i++) {
