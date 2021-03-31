@@ -45,16 +45,24 @@ const app = http.createServer(function (request, response) {
                 response.end(template)
             })
 
-        } else {
-            fs.readdir('data/', function (err, data) {
-                const list = templateList(data);
-                fs.readFile(`data/${queryData.id}`, 'utf8', function (err, description) {
-                    const title = queryData.id
-                    const template = templateHTML(title, list, `<h2>${title}</h2>${description}`)
-                    response.writeHead(200)
-                    response.end(template)
-                })
-            })
+        } else if(pathname === '/create') {
+            fs.readdir('./data', function (error, filelist) {
+                var title = 'WEB - create';
+                var list = templateList(filelist);
+                var template = templateHTML(title, list, `
+          <form action="http://localhost:3000/process_create" method="post">
+            <p><input type="text" name="title" placeholder="title"></p>
+            <p>
+              <textarea name="description" placeholder="description"></textarea>
+            </p>
+            <p>
+              <input type="submit">
+            </p>
+          </form>
+        `);
+                response.writeHead(200);
+                response.end(template);
+            });
         }
     } else {
         response.writeHead(404)
