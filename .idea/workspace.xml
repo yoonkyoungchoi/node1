@@ -90,6 +90,9 @@
       <workItem from="1616548256509" duration="448000" />
       <workItem from="1616548715390" duration="62000" />
       <workItem from="1616629256541" duration="5009000" />
+      <workItem from="1616634908195" duration="639000" />
+      <workItem from="1616988386728" duration="14000" />
+      <workItem from="1617233807471" duration="405000" />
     </task>
     <task id="LOCAL-00001" summary="시작">
       <created>1615424773355</created>
@@ -154,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616634611630</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="함수 설정">
+      <created>1616634946665</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616634946665</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +192,7 @@
     <MESSAGE value="글 목록 수정2" />
     <MESSAGE value="글 목록 수정3" />
     <MESSAGE value="글 목록 수정4" />
-    <option name="LAST_COMMIT_MESSAGE" value="글 목록 수정4" />
+    <MESSAGE value="함수 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="함수 설정" />
   </component>
 </project>
