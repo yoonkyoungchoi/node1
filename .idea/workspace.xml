@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="경로 수정">
-      <change afterPath="$PROJECT_DIR$/nodejs/06 - 01 testevents.js" afterDir="false" />
+    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="CRUD 생성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,28 @@
       <option name="project" value="LOCAL" />
       <updated>1615425400137</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Event">
+      <created>1617149525175</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617149525175</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CRUD 생성">
+      <created>1617149688763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617149688763</updated>
+    </task>
+    <task id="LOCAL-00005" summary="CRUD 생성">
+      <created>1617149813177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617149813177</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +135,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="시작" />
     <MESSAGE value="경로 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="경로 수정" />
+    <MESSAGE value="Event" />
+    <MESSAGE value="CRUD 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD 생성" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
