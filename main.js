@@ -61,7 +61,7 @@ var app = http.createServer(function(request,response){
             const title = 'WEB - create';
             const list = templateList(filelist);
             const template = templateHTML(title, list, `
-          <form action=http://localhost:3000/create_process" method="post">
+          <form action="http://localhost:3000/create_process" method="post">
             <p><input type="text" name="title" placeholder="title"></p>
             <p>
               <textarea name="description" placeholder="description"></textarea>
@@ -83,9 +83,11 @@ var app = http.createServer(function(request,response){
                 const post = qs.parse(body);
                 const title = post.title;
                 const description = post.description;
+                fs.writeFile(`data/${title}`, description, 'utf-8', function (err){
+                    response.writeHead(302, {Location : `/?id=${title}`});
+                    response.end();
+                });
             });
-            response.writeHead(200);
-            response.end('success');
 
     }else{
         response.writeHead(404);
