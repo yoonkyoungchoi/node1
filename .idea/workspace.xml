@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="web2-33 글수정 - 수정링크 생성">
+    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="web2-33 글생성 - 파일생성과 리다이렉션">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +48,15 @@
       <recent name="D:\node1\nodejs" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.text.js">
+  <component name="RunManager" selected="Node.js.main.js">
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="text.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/text.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.text.js" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.server.js" />
       </list>
@@ -81,8 +78,6 @@
       <workItem from="1615427157797" duration="6000" />
       <workItem from="1615533190310" duration="6000" />
       <workItem from="1615938049424" duration="310000" />
-      <workItem from="1618291451095" duration="5000" />
-      <workItem from="1618335706367" duration="1716000" />
     </task>
     <task id="LOCAL-00001" summary="시작">
       <created>1615424773355</created>
@@ -147,14 +142,7 @@
       <option name="project" value="LOCAL" />
       <updated>1617152789158</updated>
     </task>
-    <task id="LOCAL-00010" summary="web2-33 글수정 - 수정링크 생성">
-      <created>1617153745585</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1617153745585</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,8 +168,7 @@
     <MESSAGE value="web2-31 글생성-UI" />
     <MESSAGE value="web2-32 글생성 - 데이터 받기" />
     <MESSAGE value="web2-33 글생성 - 파일생성과 리다이렉션" />
-    <MESSAGE value="web2-33 글수정 - 수정링크 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="web2-33 글수정 - 수정링크 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="web2-33 글생성 - 파일생성과 리다이렉션" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
