@@ -2,6 +2,8 @@ const http = require('http')
 const fs = require('fs')
 const url = require('url')
 const qs = require('querystring')
+const path = require('path');
+const sanitizeHtml = require('sanitize-html');
 
 const template = {
     HTML: function (title, list, body, control) {
@@ -31,10 +33,6 @@ const template = {
     }
 };
 
-
-
-
-
 const app = http.createServer(function (request, response) {
     const _url = request.url
     const queryData = url.parse(_url, true).query
@@ -54,19 +52,22 @@ const app = http.createServer(function (request, response) {
                 response.end(html)
             })
         } else {
-            fs.readdir('data/', function (err, data) {
+            fs.readdir('./data', function (err, data) {
                 const list = template.list(data)
-                fs.readFile(`data/${queryData.id}`, 'utf8',
+                const filteredId = path.parse(queryData.id).base;
+                fs.readFile(`data/${filteredId}`, 'utf8',
                     function (err, description) {
                         const title = queryData.id
-                        const html = template.HTML(title, list,
-                            `<h2>${title}</h2>${description}`,
+                        const sanitizedTitle = sanitizeHtml(title);
+                        const sanitizedDescription = sanitizeHtml(description)
+                        const html = template.HTML(sanitizedTitle, list,
+                            `<h2>${sanitizedTitle}</h2>${sanitizedDescription}`,
                             ` <a href="/create">create</a>
-                <a href="/update?id=${title}">update</a>
-                <form action="delete_process" method="post">
-                  <input type="hidden" name="id" value="${title}">
-                  <input type="submit" value="delete">
-                </form>`,
+                                    <a href="/update?id=${sanitizedTitle}">update</a>
+                                    <form action="delete_process" method="post">
+                                      <input type="hidden" name="id" value="${sanitizedTitle}">
+                                      <input type="submit" value="delete">
+                                    </form>`,
                         )
                         response.writeHead(200)
                         response.end(html)
@@ -106,8 +107,9 @@ const app = http.createServer(function (request, response) {
             });
         });
     } else if(pathname === '/update') {
+        const filteredId = path.parse(queryData.id).base;
         fs.readdir('./data', function (error, filelist) {
-            fs.readFile(`data/${queryData.id}`, 'utf8', function (err, description) {
+            fs.readFile(`data/${filteredId}`, 'utf8', function (err, description) {
                 const title = queryData.id
                 const list = template.list(filelist)
                 const html = template.HTML(title, list,
