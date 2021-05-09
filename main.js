@@ -67,21 +67,21 @@ var app = http.createServer(function(request,response){
             const title = 'WEB - create';
             const list = templateList(filelist);
             const template = templateHTML(title, list, `
-          <form action="http://localhost:3000/create_process" method="post">
-            <p><input type="text" name="title" placeholder="title"></p>
-            <p>
-              <textarea name="description" placeholder="description"></textarea>
-            </p>
-            <p>
-              <input type="submit">
-            </p>
-          </form>
+                <form action="/create_process" method="post">
+                <p><input type="text" name="title" placeholder="title"></p>
+                <p>
+                  <textarea name="description" placeholder="description"></textarea>
+                </p>
+                <p>
+                  <input type="submit">
+                </p>
+              </form>
         `, '');
             response.writeHead(200);
             response.end(template);
         });
     } else if(pathname === '/create_process'){
-        var body = '';
+        let body = '';
         request.on('data', function(data){
             body = body + data;
         });
@@ -93,6 +93,30 @@ var app = http.createServer(function(request,response){
                 response.writeHead(302, {Location: `/?id=${title}`});
                 response.end();
             })
+        });
+    } else if(pathname === '/update'){
+        fs.readdir('./data', function(error, filelist){
+            fs.readFile(`data/${queryData.id}`, 'utf8', function(err, description){
+                const title = queryData.id;
+                const list = templateList(filelist);
+                const template = templateHTML(title, list,
+                    `
+                        <form action="/update_process" method="post">
+                          <input type="hidden" name="id" value="${title}">
+                          <p><input type="text" name="title" placeholder="title" value="${title}"></p>
+                          <p>
+                            <textarea name="description" placeholder="description">${description}</textarea>
+                          </p>
+                          <p>
+                            <input type="submit">
+                          </p>
+                        </form>
+                        `,
+                                `<a href="/create">create</a> <a href="/update?id=${title}">update</a>`
+                );
+                response.writeHead(200);
+                response.end(template);
+            });
         });
     } else {
         response.writeHead(404);

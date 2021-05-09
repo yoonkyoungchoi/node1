@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="commit">
+    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="web 3-4 홈페이지 구현">
       <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617152789158</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="web 3-4 홈페이지 구현">
+      <created>1620563222966</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1620563222966</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +176,7 @@
     <MESSAGE value="web2-31 글생성-UI" />
     <MESSAGE value="web2-32 글생성 - 데이터 받기" />
     <MESSAGE value="web2-33 글생성 - 파일생성과 리다이렉션" />
-    <option name="LAST_COMMIT_MESSAGE" value="web2-33 글생성 - 파일생성과 리다이렉션" />
+    <MESSAGE value="web 3-4 홈페이지 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="web 3-4 홈페이지 구현" />
   </component>
 </project>
