@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="web 3-5 글수정-수정할 정보 전송">
+    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="web 3-5 글수정-파일명 변경, 내용저장, 삭제 버튼 구현">
       <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
@@ -79,6 +79,7 @@
       <workItem from="1615427157797" duration="6000" />
       <workItem from="1615533190310" duration="6000" />
       <workItem from="1615938049424" duration="310000" />
+      <workItem from="1620567238496" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="시작">
       <created>1615424773355</created>
@@ -157,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620563402469</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="web 3-5 글수정-파일명 변경, 내용저장, 삭제 버튼 구현">
+      <created>1620564098939</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620564098939</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +193,7 @@
     <MESSAGE value="web2-33 글생성 - 파일생성과 리다이렉션" />
     <MESSAGE value="web 3-4 홈페이지 구현" />
     <MESSAGE value="web 3-5 글수정-수정할 정보 전송" />
-    <option name="LAST_COMMIT_MESSAGE" value="web 3-5 글수정-수정할 정보 전송" />
+    <MESSAGE value="web 3-5 글수정-파일명 변경, 내용저장, 삭제 버튼 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="web 3-5 글수정-파일명 변경, 내용저장, 삭제 버튼 구현" />
   </component>
 </project>
