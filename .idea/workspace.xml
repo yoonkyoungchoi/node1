@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="express">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/web3-4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="글 목록 수정4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,11 +50,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\node1\nodejs" />
       <recent name="C:\Users\User\WebstormProjects\node1" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.test.js">
+  <component name="RunManager" selected="Node.js.main.js">
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -69,12 +63,8 @@
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/test.js" working-dir="$PROJECT_DIR$/nodejs">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.readdir.js" />
         <item itemvalue="Node.js.server.js" />
@@ -100,10 +90,6 @@
       <workItem from="1616548256509" duration="448000" />
       <workItem from="1616548715390" duration="62000" />
       <workItem from="1616629256541" duration="5009000" />
-      <workItem from="1619563324005" duration="467000" />
-      <workItem from="1620092934010" duration="2000" />
-      <workItem from="1620258421137" duration="173000" />
-      <workItem from="1620862632942" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="시작">
       <created>1615424773355</created>
@@ -168,14 +154,7 @@
       <option name="project" value="LOCAL" />
       <updated>1616634611630</updated>
     </task>
-    <task id="LOCAL-00010" summary="express">
-      <created>1619049374889</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1619049374889</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +182,6 @@
     <MESSAGE value="글 목록 수정2" />
     <MESSAGE value="글 목록 수정3" />
     <MESSAGE value="글 목록 수정4" />
-    <MESSAGE value="express" />
-    <option name="LAST_COMMIT_MESSAGE" value="express" />
+    <option name="LAST_COMMIT_MESSAGE" value="글 목록 수정4" />
   </component>
 </project>
