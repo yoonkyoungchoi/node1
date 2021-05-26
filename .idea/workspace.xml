@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="express">
-      <change afterPath="$PROJECT_DIR$/lib/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="fa65d109-24eb-4e17-b9b1-c43045335b38" name="Default Changelist" comment="web3-9.1 미들웨어의 사용 -body-parser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
@@ -100,6 +98,7 @@
       <workItem from="1616548256509" duration="448000" />
       <workItem from="1616548715390" duration="62000" />
       <workItem from="1616629256541" duration="5009000" />
+      <workItem from="1621985769430" duration="3205000" />
     </task>
     <task id="LOCAL-00001" summary="시작">
       <created>1615424773355</created>
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616634611630</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="web3-9.1 미들웨어의 사용 -body-parser">
+      <created>1620868320299</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1620868320299</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +198,7 @@
     <MESSAGE value="글 목록 수정2" />
     <MESSAGE value="글 목록 수정3" />
     <MESSAGE value="글 목록 수정4" />
-    <option name="LAST_COMMIT_MESSAGE" value="글 목록 수정4" />
+    <MESSAGE value="web3-9.1 미들웨어의 사용 -body-parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="web3-9.1 미들웨어의 사용 -body-parser" />
   </component>
 </project>
